@@ -1,0 +1,15 @@
+- Setup
+- Create ViewModel
+- ApplBindings to DOM or to element
+- Input to Span simple updates
+- Update on keydown with valueUpdate
+- How to set a value, ie as a function not a variable to maintain 2 way binding
+- Subscribe
+- Computed observables
+- Observable Arrays & the select binding
+- click binding
+- templates
+- shorthand
+- foreach, if, etc.
+- custom bindings & extenders (can be used for validation!)
+- mapping to/from JSON
