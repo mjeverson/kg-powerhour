@@ -1,6 +1,6 @@
 - Setup
 - Create ViewModel
-- ApplBindings to DOM or to element
+- ApplyBindings to DOM or to element (can only apply bindings once)
 - Input to Span simple updates
 - Update on keydown with valueUpdate
 - How to set a value, ie as a function not a variable to maintain 2 way binding
@@ -13,3 +13,8 @@
 - foreach, if, etc.
 - custom bindings & extenders (can be used for validation!)
 - mapping to/from JSON
+
+- Angular vs KO
+Think of it this way: Knockout is primarily used to control UI representation in lower complexity applications, whereas Angular is a JavaScript framework that is much better suited for large, complex enterprise applications. It provides not only UI binding, but also best practices for application structure, development and testing.
+
+- Maker Faire Plug
