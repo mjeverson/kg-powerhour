@@ -1,5 +1,15 @@
 function Player() {
+  this.baseValue = 5;
 }
+
+Player.prototype.setBaseValue = function(newValue){
+  this.baseValue = newValue;
+}
+
+Player.prototype.getBaseValue = function(){
+  return this.baseValue;
+}
+
 Player.prototype.play = function(song) {
   this.currentlyPlayingSong = song;
   this.isPlaying = true;
